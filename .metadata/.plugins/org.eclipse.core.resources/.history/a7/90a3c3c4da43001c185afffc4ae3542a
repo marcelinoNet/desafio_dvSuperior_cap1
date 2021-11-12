@@ -80,6 +80,12 @@ public class Client implements Serializable{
 
 	public void setChildren(Integer children) {
 		this.children = children;
-	}	
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	
+	
 
 }
