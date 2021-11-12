@@ -3,7 +3,7 @@ INSERT INTO tb_client (name,cpf,income, birth_Date, children) VALUES ('Maria', '
 INSERT INTO tb_client (name,cpf,income, birth_Date, children) VALUES ('Lucia', '717.765.600-60',2042.24,TIMESTAMP WITH TIME ZONE '1983-02-13T20:50:07.12345Z', 2);
 INSERT INTO tb_client (name,cpf,income, birth_Date, children) VALUES ('Flavia', '467.528.210-54',1531.00,TIMESTAMP WITH TIME ZONE '1974-03-12T20:50:07.12345Z', 1);
 INSERT INTO tb_client (name,cpf,income, birth_Date, children) VALUES ('Dinara', '941.083.770-79',1686.90,TIMESTAMP WITH TIME ZONE '1989-05-20T20:50:07.12345Z', 0);
-INSERT INTO tb_client (name,cpf,income, birth_Date, children) VALUES ('Filipe', '759.377.100-88',2901.56,TIMESTAMP WITH TIME ZONE '1977-11-28T20:50:07.12345Z', 2);
+INSERT INTO tb_client (name,cpf,income, birth_Date, children) VALUES ('Filipe', '759.377.100-88',2901,56,TIMESTAMP WITH TIME ZONE '1977-11-28T20:50:07.12345Z', 2);
 INSERT INTO tb_client (name,cpf,income, birth_Date, children) VALUES ('Leo', '628.325.320-20',2192.32,TIMESTAMP WITH TIME ZONE '1988-12-23T20:50:07.12345Z', 1);
 INSERT INTO tb_client (name,cpf,income, birth_Date, children) VALUES ('Clara', '476.618.750-47',2071.00,TIMESTAMP WITH TIME ZONE '1955-07-01T20:50:07.12345Z', 4);
 INSERT INTO tb_client (name,cpf,income, birth_Date, children) VALUES ('Ana', '968.088.860-67',2326.42,TIMESTAMP WITH TIME ZONE '1983-08-09T20:50:07.12345Z', 3);
