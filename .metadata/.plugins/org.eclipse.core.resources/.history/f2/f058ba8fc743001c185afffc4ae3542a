@@ -1,0 +1,21 @@
+package com.devsuperior.Desafio_DevSuperior.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.devsuperior.Desafio_DevSuperior.dto.ClientDTO;
+import com.devsuperior.Desafio_DevSuperior.entities.Client;
+import com.devsuperior.Desafio_DevSuperior.repositories.ClientRepository;
+
+@Service
+public class ClientService {
+	
+	@Autowired
+	private ClientRepository repository;
+	
+	public List<ClientDTO> findAll(){
+		return repository.findAll();
+	}
+}
